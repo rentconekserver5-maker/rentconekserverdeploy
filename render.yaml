@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: rent-conek-backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGIN
+        value: https://rork.com,exp://*
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: ONESIGNAL_APP_ID
+        value: 0acd50ae-fa70-4068-988f-73f715bee635
+      - key: ONESIGNAL_API_KEY
+        sync: false

@@ -12,13 +12,13 @@ services:
       - key: CORS_ORIGIN
         value: https://rork.com,exp://*
       - key: SUPABASE_URL
-        sync: false
+        value: https://vxptpjmqtkxpytyyssca.supabase.co
       - key: SUPABASE_ANON_KEY
-        sync: false
+        value: sb_publishable_JCWe4L-NfhmmRciiXz1xXg_vSe48_BL
       - key: SUPABASE_SERVICE_ROLE_KEY
-        sync: false
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4cHRwam1xdGt4cHl0eXlzc2NhIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NDgzNTIxNSwiZXhwIjoyMTAwNDExMjE1fQ.NodvYnn4B0oLvwb9iJzCWhbnmwBCHgQ7tpwIoHzQ23w
       - key: JWT_SECRET
-        sync: false
+        value: RXv8uCHPn9g28kO7GFxCq3yOzdSlHquluOghyYoaPIo=
       - key: JWT_EXPIRES_IN
         value: 7d
       - key: ONESIGNAL_APP_ID
